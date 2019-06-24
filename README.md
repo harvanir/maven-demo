@@ -12,5 +12,7 @@
 <br/>
 Add <b>Deploy keys</b> to github
 
+### Configure your maven/gradle local repo
+
 ### Release
 ```mvn release:prepare release:perform```
