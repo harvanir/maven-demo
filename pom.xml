@@ -11,14 +11,14 @@
 
   <groupId>org.harvan.maven</groupId>
   <artifactId>maven-demo</artifactId>
-  <version>1.0.0-2</version>
+  <version>1.0.0-3-SNAPSHOT</version>
   <name>maven-demo</name>
 
   <scm>
     <connection>scm:git:git@github.com:harvanir/maven-demo.git</connection>
     <developerConnection>scm:git:git@github.com:harvanir/maven-demo.git</developerConnection>
     <url>https://github.com/harvanir/maven-demo.git</url>
-    <tag>maven-demo-1.0.0-2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
