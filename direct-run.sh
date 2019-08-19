@@ -1,0 +1,2 @@
+mvn -DskipTests=true clean package
+java -Dserver.port=8181 -Djava.security.egd=file:/dev/./urandom -server -Xms1g -Xmx1g -XX:MaxMetaspaceSize=100m -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=70 -XX:+ScavengeBeforeFullGC -XX:+CMSScavengeBeforeRemark -XX:+ExplicitGCInvokesConcurrentAndUnloadsClasses -Xss512k -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar target/maven-demo-1.0.0-4-SNAPSHOT.jar
